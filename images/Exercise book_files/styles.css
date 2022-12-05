@@ -1,0 +1,183 @@
+.main {
+    background-color: black;
+    display: flexbox;
+}
+.prof {
+    display:flex;
+    border: 2px solid green;
+    padding: 2px;
+    border-color: green;
+    color: white;
+    background-color: green;
+    display: inline;
+    font-size: 30px;
+    
+}
+.best {
+    display:flex;
+    font-size: 80px;
+    color: white;
+    display:block;
+}
+.text {
+display: flex;
+align-items: flex-end;
+color: white;
+flex-direction: column;
+font-size: 25px;
+}
+.italy {
+    background-image: url("images/italyrec.png");
+    background-repeat: no repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: 110px;
+    margin-bottom: 170px;
+    transform: skewY(-10deg);
+   
+    
+
+}
+
+.icons {
+    display:flex;
+    display: block;
+    flex-direction: column;
+    position:absolute;
+    top: 425px;
+    left:50px;
+    
+}
+.logo {
+display: flex;
+flex-direction: column;
+width: 90px;
+border: 2px solid red;
+position: absolute;
+top:305px;
+left:50px;
+}
+.clip1 {
+    display: flex;
+    flex-direction: column;
+    width: 90px;
+    border: 2px solid red;
+    margin-bottom: 20px;
+}
+.clip2 {
+    display: flex;
+    flex-direction: column;
+    width: 90px;
+    border: 2px solid red; 
+    margin-bottom: 20px;
+}
+.clip3 {
+    display: flex;
+    flex-direction: column;
+    width: 90px;
+    border: 2px solid red; 
+    margin-bottom: 20px;
+}
+.clip4 {
+    display: flex;
+    flex-direction: column;
+    width: 90px;
+    border: 2px solid red; 
+    margin-bottom: 20px;
+}
+.clip5 {
+    display: flex;
+flex-direction: column;
+width: 90px;
+border: 2px solid red;
+margin-bottom: 20px;
+}
+.italy2 {
+    display: flex;
+    background-image: url(images/italyrec.png);
+    background-repeat: no-repeat;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-size: 130px;
+    
+}
+.design {
+display: flex;
+align-items: center;
+
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-items: center;
+    position: absolute;
+    top: 500px;
+    right: 20px;
+   
+    
+}
+.prof2 {
+    display: flex;
+    color: white;
+    align-items: flex-end;
+    transform: rotate(-90deg);
+    
+    
+    
+}
+.italy3 {
+    display: flex;
+    transform: rotate(90deg);
+    margin-top: 135px;
+    position: absolute;
+    top: 0;
+    right: 30px;
+}
+.clipper {
+    display: flex;
+    position: absolute;
+    top: 430px;
+    right: 550px;
+    height: 600px;
+}
+.last {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+    position: absolute;
+    top: 900px;
+    right: 50px;
+}
+.best2 {
+    display: flex;
+    color: white;
+    align-items: flex-end;
+    transform: rotate(-90deg);
+    font-size:30px;
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+
+.tapper {
+    display: flex;
+    color: white;
+    align-items: flex-end;
+    transform: rotate(-90deg);
+    font-size:19px;
+    
+    
+    
+}
+.shape {
+    display: flex;
+    transform: rotate(90deg);
+    position: relative;
+    top: -80px;
+    right: 120px;
+    width: 50px;
+}
+

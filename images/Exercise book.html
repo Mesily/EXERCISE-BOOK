@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:5500/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+<link rel="stylesheet" href="./Exercise book_files/styles.css"></head>
+<body>
+    <div class="main">
+        <div class="prof">PROFESSIONAL</div>
+        <div class="best">BESTCITY</div>
+        <div class="text">
+            <div>ORIGINALTAPER+</div>
+            <div>PROFESSIONAL CLIPPER</div>
+            <div>DYVL2020-BC5009</div>
+        </div>
+        <img class="logo" src="./Exercise book_files/logo.jpg">
+       
+        <div class="italy"></div> 
+        <div class="icons">
+            <picture>
+                
+                <img class="clip1" src="./Exercise book_files/clip1.jpg">
+                <img class="clip2" src="./Exercise book_files/clip2.jpg">
+                <img class="clip3" src="./Exercise book_files/clip3.jpg">
+                <img class="clip4" src="./Exercise book_files/clip4.jpg">
+                <img class="clip5" src="./Exercise book_files/clip5.jpg">
+            </picture>
+        </div>
+        
+    
+    <div class="italy2">
+        <div class="design">DESIGN IN ITALY</div>
+    </div>
+        
+    <div class="left">
+        <h2 class="prof2"> PROFESSIONAL </h2>
+        <img class="italy3" src="./Exercise book_files/italy.png">
+    </div>
+    <div class="clipper">
+        <img class="hairclipper" src="./Exercise book_files/clipper.jpg">
+    </div>
+        <div class="last">
+            <div class="best2">BESTCITY</div>
+            <div class="tapper">ORIGINAL TAPPER+</div>
+           
+            <img class="shape" src="./Exercise book_files/clip6.png">
+        </div>
+        </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+</body></html>
